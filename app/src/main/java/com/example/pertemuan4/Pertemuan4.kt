@@ -1,6 +1,7 @@
 package com.example.pertemuan4
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -64,7 +65,8 @@ fun ActivitasPertama(modifier: Modifier) {
                     modifier = Modifier
                         .size(100.dp)
                         .padding(5.dp)
-                        .clip(androidx.compose.foundation.shape.CircleShape) // Tambahkan baris ini
+                        .clip(androidx.compose.foundation.shape.CircleShape)
+                        .border(2.dp, Color.White, androidx.compose.foundation.shape.CircleShape)// Tambahkan baris ini
                 )
                 Spacer(modifier = Modifier.width(30.dp))
                 Column() {
