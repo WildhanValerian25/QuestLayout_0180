@@ -53,6 +53,9 @@ fun ActivitasPertama(modifier: Modifier) {
             shape = androidx.compose.foundation.shape.RoundedCornerShape(20.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
+            ),
+            elevation = CardDefaults.cardElevation(
+                defaultElevation = 8.dp
             )
 
 
