@@ -49,9 +49,12 @@ fun ActivitasPertama(modifier: Modifier) {
             modifier = Modifier
                 .fillMaxWidth(1f)
                 .padding(12.dp),
+            shape = androidx.compose.foundation.shape.RoundedCornerShape(20.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             )
+
+
         ) {
             Row() { //row nya dalam card
                 val gambar = painterResource(R.drawable.logoultraman)
