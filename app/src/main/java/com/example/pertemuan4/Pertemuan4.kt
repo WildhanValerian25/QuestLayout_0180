@@ -96,6 +96,7 @@ fun ActivitasPertama(modifier: Modifier) {
             ) {
                 Text(
                     stringResource(R.string.copy),
+                    color = Color.LightGray,
                     modifier = Modifier
                         .align(Alignment.BottomCenter)
                         .padding(bottom = 50.dp),
