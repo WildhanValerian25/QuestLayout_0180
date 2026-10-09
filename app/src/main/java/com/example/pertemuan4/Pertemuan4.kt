@@ -17,6 +17,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -57,7 +58,10 @@ fun ActivitasPertama(modifier: Modifier) {
                 Image(
                     painter = gambar,
                     contentDescription = null,
-                    modifier = Modifier.size(100.dp).padding(5.dp)
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                        .clip(androidx.compose.foundation.shape.CircleShape) // Tambahkan baris ini
                 )
                 Spacer(modifier = Modifier.width(30.dp))
                 Column() {
