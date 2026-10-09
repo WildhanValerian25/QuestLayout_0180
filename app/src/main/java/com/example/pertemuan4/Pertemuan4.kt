@@ -78,7 +78,7 @@ fun ActivitasPertama(modifier: Modifier) {
             }
             Box(
                 modifier = Modifier
-                    .fillMaxWidth()
+                    .fillMaxSize()
 
             ) {
                 Text(
