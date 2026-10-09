@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 
 
 @Composable
-fun ActPertama(modifier: Modifier) {
+fun ActivitasPertama(modifier: Modifier) {
     Column(
         modifier = Modifier.padding(top = 100.dp)
             .fillMaxSize(),
@@ -53,7 +53,7 @@ fun ActPertama(modifier: Modifier) {
             )
         ) {
             Row() { //row nya dalam card
-                val gambar = painterResource(R.drawable.LogoUltraman)
+                val gambar = painterResource(R.drawable.logoultraman)
                 Image(
                     painter = gambar,
                     contentDescription = null,
